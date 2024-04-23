@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "nombre": "Estuche de lápices",
+      "descripcion": "Estuche compacto con compartimentos para organizar y transportar lápices, bolígrafos y otros útiles escolares.",
+      "precio": 8.99
+    },
+    {
+      "id": 2,
+      "nombre": "Organizador de escritorio",
+      "descripcion": "Organizador de plástico para escritorio con compartimentos para almacenar lápices, clips, notas adhesivas y otros accesorios escolares.",
+      "precio": 12.50
+    },
+    {
+      "id": 3,
+      "nombre": "Mochila con compartimento para laptop",
+      "descripcion": "Mochila espaciosa con compartimento acolchado para laptop y varios bolsillos para organizar libros, cuadernos y otros útiles escolares.",
+      "precio": 29.99
+    },
+    {
+      "id": 4,
+      "nombre": "Carpeta de archivos expandible",
+      "descripcion": "Carpeta expandible con múltiples bolsillos para organizar y transportar documentos, tareas y proyectos escolares.",
+      "precio": 14.99
+    },
+    {
+      "id": 5,
+      "nombre": "Bandeja organizadora de papeles",
+      "descripcion": "Bandeja de plástico para organizar y clasificar papeles, tareas y documentos escolares en el escritorio.",
+      "precio": 6.99
+    },
+    {
+      "id": 6,
+      "nombre": "Cajas organizadoras de juguetes",
+      "descripcion": "Cajas de plástico transparente para almacenar y organizar juguetes, juegos y materiales didácticos en el aula o en casa.",
+      "precio": 19.99
+    },
+    {
+      "id": 7,
+      "nombre": "Porta lápices magnético",
+      "descripcion": "Porta lápices con imán para adherirse a la parte lateral de la pizarra blanca y mantener los marcadores y borradores escolares al alcance.",
+      "precio": 5.99
+    },
+    {
+      "id": 8,
+      "nombre": "Organizador de lockers",
+      "descripcion": "Organizador de plástico para lockers con compartimentos para guardar libros, carpetas y otros útiles escolares de manera ordenada.",
+      "precio": 10.99
+    },
+    {
+      "id": 9,
+      "nombre": "Caja de almacenamiento para arte",
+      "descripcion": "Caja resistente con compartimentos para organizar y transportar materiales de arte como lápices de colores, pinceles y pinturas.",
+      "precio": 18.50
+    },
+    {
+      "id": 10,
+      "nombre": "Bolsa de almuerzo reutilizable",
+      "descripcion": "Bolsa térmica reutilizable para transportar almuerzos y meriendas escolares de manera segura y fresca.",
+      "precio": 9.50
+    }
+  ]
+  
