@@ -1,11 +1,26 @@
+import express from 'express'
 import { readFile } from 'fs/promises'
-const produc = await readFile('./productos.json' , 'utf-8')
-const usuar = await readFile('./usuarios.json' , 'utf-8')
-const vent = await readFile('./ventas.json' , 'utf-8')
-const productos = JSON.parse(produc)
-const usuarios = JSON.parse(usuar)
-const ventas = JSON.parse(vent)
 
-console.log(productos)
-console.log(usuarios)
-console.log(ventas)
+
+import userRouter from './routes/user.routes.js'
+import productRouter from './routes/product.routes.js'
+import salesRouter from './routes/sales.routes.js'
+
+//Crear instancia
+const app = express()
+//Configurar puerto
+const port = 3000
+//Levantar el servidor
+app.listen(port, () =>{
+    console.log(`Servidor levantado en puerto ${port}`)
+})
+
+app.use(express.json())
+app.use('/user', userRouter)
+app.use('/product', productRouter)
+app.use('/sales', salesRouter)
+
+
+
+
+
